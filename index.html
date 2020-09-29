@@ -8,83 +8,107 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><img src="./Wireframe - Projeto 7 (WebDev) ASSETS/Logo.png" alt="Website Logo, which redirects to homepage."></a>
+        <a href="index.html" class="flex-test"><img src="./assets/Logo.png" alt="Website Logo, which redirects to homepage."></a>
         <nav>
-            <ul>
+            <ul class="nav-flex">
                 <li>
-                    <a href="#">Link 1</a>
+                    <a href="#" class="link-styling">Link 1</a>
                 </li>
                 <li>
-                    <a href="#">Link 2</a>
+                    <a href="#" class="link-styling">Link 2</a>
                 </li>
                 <li>
-                    <a href="#">Link 3</a>
+                    <a href="#" class="link-styling">Link 3</a>
                 </li>
                 <li>
-                    <a href="#">Link 4</a>
+                    <a href="#" class="link-styling">Link 4</a>
                 </li>
                 <li>
-                    <a href="#">Link 5</a>
+                    <a href="#" class="link-styling">Link 5</a>
                 </li>
             </ul>
         </nav>
     </header>
     <section class="intro">
-        <h3>This is the song of the humpback whale.</h3>
-        <h1>Once you hear it,<br>you won't be able to forget it.</h1>
-        <button>Click for Info</button>
-        <button>Click me for even more info</button>
-    </section>
-    <section class="secret">
-        <h3>Psst. Lemme tell you a lil' secret.</h3>
-        <h2>Having trouble getting some sleep, buddy?</h2>
-        <h3>Here are some reasons that might <i>hook</i> you.</h3>
-        <p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum at laoreet est turpis lacus libero. Tincidunt egestas amet ultricies tincidunt nulla sed mi. Habitasse interdum sit consectetur ut amet fames quam in est. Turpis odio nulla lacus pellentesque interdum magnis posuere amet sit.</p>
-        <div class="reasons">
-            <div class="icons"><img src="./Wireframe - Projeto 7 (WebDev) ASSETS/Icon01.png" alt="Icon of a ship's stir."></div>
-            <div>
-                <ul>
-                    <h4>The ship's stir.</h4>
-                    <p class="body">This is just empty text. It's an item in a list.</p>
-                    <p class="body">This is another item in the same list.</p>
-                </ul>
-            </div>
-            <div class="icons"><img src="./Wireframe - Projeto 7 (WebDev) ASSETS/Icon02.png" alt="Icon of a porthole."></div>
-            <div>
-                <ul>
-                    <h4>This is a second list.</h4>
-                    <p class="body">Ah, yes. The porthole. Yep.</p>
-                    <p class="body">Nothing relevant here either. End of list 2.</p>
-                </ul>
-            </div>
-            <div class="icons"><img src="./Wireframe - Projeto 7 (WebDev) ASSETS/Icon03.png" alt="Icon of a diving helmet."></div>
-            <div>
-                <ul>
-                    <h4>And finally: the diving helmet.</h4>
-                    <p class="body">You guessed it: still no palpable reason was provided.</p>
-                    <p class="body">Yes, this is the end of list number three. Neat stuff!</p>
-                </ul>
+        <div>
+            <h3>This is the song of the humpback whale.</h3>
+            <h1>Once you hear it,<br>you won't be able to forget it.</h1>
+            <div class="buttons-flex">
+                <button>Click for Info</button>
+                <button>Click me for even more info</button>
             </div>
         </div>
-        <div class="second-image"></div>
+    </section>
+    <section class="secret">
+        <div class="header-secret">
+            <h3>Psst. Lemme tell you a lil' secret.</h3>
+            <h2>Having trouble getting some sleep, buddy?</h2>    
+        </div>
+        <div class="reasons-flex">
+            <div>
+                <h3>Here are some reasons that might <i>hook</i> you.</h3>
+                <p class="body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cursus elementum at laoreet est turpis lacus libero. Tincidunt egestas amet ultricies tincidunt nulla sed mi. Habitasse interdum sit consectetur ut amet fames quam in est. Turpis odio nulla lacus pellentesque interdum magnis posuere amet sit.</p>
+                <div class="reasons">
+                    <div class="icon-flex">
+                        <div class="icons"><img src="./assets/Icon01.png" alt="Icon of a ship's stir."></div>
+                        <div>
+                            <ul>
+                                <h4>The ship's stir.</h4>
+                                <p class="body">This is just empty text. It's an item in a list.</p>
+                                <p class="body">This is another item in the same list.</p>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="icon-flex">
+                        <div class="icons"><img src="./assets/Icon02.png" alt="Icon of a porthole."></div>
+                        <div>
+                            <ul>
+                                <h4>This is a second list.</h4>
+                                <p class="body">Ah, yes. The porthole. Yep.</p>
+                                <p class="body">Nothing relevant here either. End of list 2.</p>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="icon-flex">
+                        <div class="icons"><img src="./assets/Icon03.png" alt="Icon of a diving helmet."></div>
+                        <div>
+                            <ul>
+                                <h4>And finally: the diving helmet.</h4>
+                                <p class="body">You guessed it: still no palpable reason was provided.</p>
+                                <p class="body">Yes, this is the end of list number three. Neat stuff!</p>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="image-two">
+                <img src="./assets/Pic02.png" alt="Image of a humpback whale surfacing and splattering water around.">
+            </div>
+        </div>
     </section>
     <section class="contact">
-        <h2>Like what you see?<br>Fill the form and get updates:</h2>
-        <h3>Hi Lorena, how are you?</h3>
-        <p class="body">Empor bibendum tempor et, ultricies senectus nisl, tempus, elit. Egestas consectetur aliquet morbi quis mauris auctor ipsum. Elit tortor consequat ultrices fringilla tempor ac placerat risus, sit.<br><br>You know the drill. Send a word, keep in touch.</p>
-        <label for="vovozinha">Insert name:</label>
-        <input type="text" name="vovozinha" required>
-        <label for="vovozinho">Insert favourite colour:</label>
-        <input type="text" name="vovozinho" required>
-        <label for="bingo-de-sabado">Insert favourite beer brand:</label>
-        <input type="text" name="bingo-de-sabado" required>
-        <input type="submit" value="Send it!">
+        <h2 class="h2-center">Like what you see?<br>Fill the form and get updates:</h2>
+        <div class="form-flex">
+            <div>
+                <h3>Hi Lorena, how are you?</h3>
+                <p class="body">Empor bibendum tempor et, ultricies senectus nisl, tempus, elit. Egestas consectetur aliquet morbi quis mauris auctor ipsum. Elit tortor consequat ultrices fringilla tempor ac placerat risus, sit.<br><br>You know the drill. Send a word, keep in touch.</p>
+            </div>
+            <div class="input-flex">
+                <label for="vovozinha">Insert name:</label>
+                <input type="text" name="vovozinha" required>
+                <label for="vovozinho">Insert favourite colour:</label>
+                <input type="text" name="vovozinho" required>
+                <label for="bingo-de-sabado">Insert favourite beer brand:</label>
+                <input type="text" name="bingo-de-sabado" required>
+                <input type="submit" value="Send it!">
+            </div>
+        </div>
     </section>
     <footer>
-        <p class="body">Copyright © 2020 | Bruno Araújo, All rights reserved under copyright law.</p>
-        <a href="https://twitter.com/bruno01430042" class="social-media"><img src="./Wireframe - Projeto 7 (WebDev) ASSETS/Social_Media-Twitter.png" alt="Link to Bruno's Twitter page."></a>
-        <a href="#" class="social-media"><img src="./Wireframe - Projeto 7 (WebDev) ASSETS/Social_Media-Instagram.png" alt="Link to Bruno's Instagram page."></a>
-        <a href="#" class="social-media"><img src="./Wireframe - Projeto 7 (WebDev) ASSETS/Social_Media-Facebook.png" alt="Link to Bruno's Facebook page."></a>
+        <p class="small">Copyright © 2020 | Bruno Araújo, All rights reserved under copyright law.</p>
+        <a href="https://twitter.com/bruno01430042" class="social-media"><img src="./assets/Social_Media-Twitter.png" alt="Link to Bruno's Twitter page."></a>
+        <a href="#" class="social-media"><img src="./assets/Social_Media-Instagram.png" alt="Link to Bruno's Instagram page."></a>
+        <a href="#" class="social-media"><img src="./assets/Social_Media-Facebook.png" alt="Link to Bruno's Facebook page."></a>
     </footer>
 </body>
 </html>

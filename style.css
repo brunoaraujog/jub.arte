@@ -1,0 +1,200 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap');
+
+* {
+    border-style: solid;
+    border-color: #000000;
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    border-style: none;
+}
+
+/* ALIGNMENT FROM HERE ONWARDS */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+.flex-test {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-flex {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.buttons-flex {
+    display: flex;
+    flex-direction: row;
+}
+
+.intro {
+        background-image: url(./assets/Pic01.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        width: 100vw;
+        height: 100vh;
+        max-width: 100%;
+        max-height: 100%;
+        display: flex;
+        /* justify-content: center; */
+        align-items: center;
+}
+
+.secret {
+    background-color: rosybrown;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.header-secret {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.reasons-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+/* LOL i have no clue how in hell i'm gonna do this */
+/* .image-two {
+    width: 50vw;
+} */
+
+.icon-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.contact {
+    background-color: sandybrown;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.h2-center {
+    text-align: center;
+}
+
+.form-flex {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+}
+
+.input-flex {
+    /* i also dont know how im gonna do this */
+    /* width: 50vw; */
+    display: flex;
+    flex-direction: column;
+}
+
+/* STYLING FROM HERE ONWARDS */
+
+.link-styling {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: capitalize;
+}
+
+h1 {
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 72px;
+    letter-spacing: -0.03em;
+}
+
+h2 {
+    font-family: Source Code Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 44px;
+    letter-spacing: -0.04em;
+}
+
+h3 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 40px;
+}
+
+h4 {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+p {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.small {
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 12px 0px 0px 40px;
+    background: conic-gradient(from 270deg at 50% 50%, #F468BC 0deg, #5454D8 180deg, #F468BC 360deg);
+    border-radius: 5px;
+    height: 48px;
+    left: 24px;
+    top: 36px;
+    padding: 12px 40px;
+    font-family: Source Sans Pro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    font-variant: small-caps;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
